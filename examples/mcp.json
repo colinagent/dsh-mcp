@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+    "docs": {
+      "url": "https://mcp.example.com/mcp",
+      "headers": { "Authorization": "Bearer ${credential:DOCS_TOKEN}" }
+    }
+  }
+}

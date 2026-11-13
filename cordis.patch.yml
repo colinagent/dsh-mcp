@@ -1,0 +1,11 @@
+# Installed into a DSH profile by
+#   dsh plugin --profile <name> add @colinagent/dsh-mcp
+#
+# The row sits at the Host level on purpose: the plugin fans out one mcp-client
+# instance per Agent, because a preset's composition is mounted once per
+# generation and shared by every Agent that selects it. `inject` in src/index.ts
+# keeps the row disabled until `agents` and `workingDirectory` exist, so this
+# file carries no ordering assumption.
+- insert:
+    - id: dsh-mcp
+      name: '@colinagent/dsh-mcp'
