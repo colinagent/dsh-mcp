@@ -1,7 +1,7 @@
 {
   "name": "@colinagent/dsh-mcp",
   "version": "0.1.0",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "type": "module",
   "description": "Directory-scoped MCP servers for DeepSeek Harness: read ~/.agents/mcp.json and <cwd>/.agents/mcp.json, mount per Agent so a workspace only gets the servers it declares.",
   "engines": {
@@ -16,6 +16,7 @@
     "dist/plugin.mjs",
     "cordis.patch.yml",
     "README.md",
+    "docs/README.zh-CN.md",
     "package.json",
     "LICENSE"
   ],

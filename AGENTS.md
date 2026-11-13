@@ -41,4 +41,5 @@ bun run build                   # dist/plugin.mjs（bun bundle，@deepseek-ai/* 
 - `cwd` 相对值按 Session 目录解析，拒绝 `..`；省略时用 Session 目录（MCP server 默认在仓库里跑）。
 - 坏条目只 warn 并跳过，绝不让 Agent 创建失败。
 - 项目文件是不可信输入：它启动进程。`scanProject: false` 是唯一的门，README 里写清楚了。
-- 许可 GPL-3.0-only。呼啦啦私有仓不复制这里的源码，只引用 npm 包。
+- 许可 MIT。呼啦啦私有仓不复制这里的源码，只引用 npm 包。
+- 文档双语：`README.md` 是英文（也是 npm 页面），`docs/README.zh-CN.md` 是中文，两份同步改。
